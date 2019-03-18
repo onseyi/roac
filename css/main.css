@@ -143,6 +143,12 @@ body {
 }
 .footer a {color:#fff; font-size: 13px;}
 .footer a:hover{color:#fff;}
+.footer li{
+	display: inline-flex;
+	list-style: none;
+	padding: 0 2rem;
+}
+
 .bline{border-bottom: 1px solid #ffffff1a; margin:15px 0;}
 .uline{
 	border-bottom: 2px solid #3dc1f1;
@@ -224,5 +230,10 @@ body {
 	}	
 	.navbar-expand-lg .navbar-nav .nav-link1 {
 		font-size: 20px;
+	}	
+	.footer{padding: 3rem 0;}	
+	.footer ul{margin-right: 18%;}
+	.footer li{
+		display: block;
 	}	
 }
